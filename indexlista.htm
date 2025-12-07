@@ -1,0 +1,50 @@
+﻿<!DOCTYPE HTML>
+<HTML Lang="sv">
+	
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META name="Template_name" content="DISGEN 07">
+<META name="Template_file" content="Indexlista">
+<META name="Issuedate" content="250307">
+<META name="Keywords" content="Sl&auml;ktforskning, R&ouml;tter">
+<META name="Description" content="Startsida">
+<META name="Viewport" content="width=device-width, initial-scale=1.0">
+<LINK rel="stylesheet" HREF="screen.css" type="text/css" media="screen">
+<LINK rel="stylesheet" HREF="print.css" type="text/css" media="print">
+<BASE target="nav">
+<SCRIPT>
+function checkforframe() {
+	var newURL = self.location.pathname;
+	var pos = newURL.indexOf(":");
+	if (pos != -1) {
+		var len    = newURL.length;
+		var newURL = newURL.substring(1,len);
+	}
+	if (window.top == window.self){
+		window.top.location.href = './index.htm?' + escape(newURL);
+    	return;
+	}
+	top.document.title = self.document.title;
+	}
+</SCRIPT>
+</HEAD>
+<BODY class="noprint" onload="checkforframe()">
+<P CLASS="indexlista_f">
+<A HREF="2-1.htm">
+Personregister
+</A>
+<BR>
+<A HREF="3-1.htm">
+Efternamnsregister
+</A>
+<BR>
+<A HREF="4-1.htm">
+Ortsregister
+</A>
+<BR>
+<A HREF="about.htm" target="main">
+<IMG CLASS="info" SRC="./pictures/symbols/info.png" ALT="Info.png" Title="Teckenf&ouml;rklaring">
+</A>
+</P>
+</BODY>
+</HTML>

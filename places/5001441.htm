@@ -1,0 +1,113 @@
+﻿<!DOCTYPE HTML>
+<HTML Lang="sv">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="X-UA-Compatible" content="IE=edge">
+<META name="Template_name" content="DISGEN 08">
+<META name="Template_file" content="OrtsBeskrivning">
+<META name="Issuedate" content="250307">
+<META name="Keywords" content="Sl&auml;ktforskning, R&ouml;tter">
+<META name="Description" content="Ortsbeskrivning, Tr&aring;brunna, Norrk&ouml;pings &Ouml;stra Eneby (E))">
+<META name="Viewport" content="width=device-width, initial-scale=1.0">
+<TITLE>
+Ortsbeskrivning Tr&aring;brunna
+</TITLE>
+<LINK rel="stylesheet" HREF="../screen.css" type="text/css" media="screen">
+<LINK rel="stylesheet" HREF="../print.css" type="text/css" media="print">
+</HEAD>
+<BODY>
+<H1>
+Tr&aring;brunna
+</H1>
+<H2>
+Tr&aring;brunna, Norrk&ouml;pings &Ouml;stra Eneby (E)
+</H2>
+<DIV CLASS=ortstext>
+<BR>
+</DIV>
+<DIV CLASS="ortsrubrik">
+Fakta:
+</DIV>
+<TABLE CLASS=FaktaTBL>
+	<TR CLASS=FaktaTR>
+	  <TD CLASS=FaktaRubrik>
+			Slag av ort
+		</TD>
+	  <TD CLASS=FaktaVarde>
+			G&aring;rd
+		</TD>
+	</TR>
+	<TR CLASS=FaktaTR>
+	  <TD CLASS=FaktaRubrik>
+			Latitud, Longitud
+		</TD>
+	  <TD CLASS=FaktaVarde>
+			58°36'34.60", 16°08'09.85"
+			<BR>
+			58.60961, 16.13606
+		</TD>
+	</TR>
+	<TR CLASS=FaktaTR>
+	  <TD CLASS=FaktaRubrik>
+			Position
+		</TD>
+	  <TD CLASS=FaktaVarde>
+			RT90:		6498599, 1519233
+			<BR>
+			SWEREF:	6497142, 566005
+		</TD>
+	</TR>
+</TABLE>
+<DIV CLASS="GMap" id="googleMap">
+</DIV>
+<SCRIPT>
+function initMap() {
+  var myCenter = new google.maps.LatLng(58.60961, 16.13606);
+  var mapCanvas = document.getElementById("googleMap");
+  var mapOptions = {center: myCenter, zoom: 13};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</SCRIPT>
+<SCRIPT async defer SRC="https://maps.dis.se/gmapkey.php">
+</SCRIPT>
+<DIV class="ortsrubrik">
+L&auml;nkar:
+</DIV>
+<A CLASS="linktext" HREF="https://earth.google.se/web/@58.60961,16.13606,877750a" target="_blank" Title="Google Earth,fungerar endast med Google Chrome">
+Google Earth
+</A>
+<BR><BR>
+<UL CLASS="nav">
+<LI>
+<A CLASS="meny" HREF="javaSCRIPT:history.go(-1)" TITLE="F&ouml;reg&aring;ende sida">
+<IMG CLASS="info" SRC="../pictures/symbols/prevpage_white.png" ALT="prevpage.png" Title="Teckenf&ouml;rklaring">
+</A>
+</LI>
+<LI>
+<A CLASS="meny" HREF="../2-1.htm">
+Personregister
+</A>
+</LI>
+<LI>
+<A CLASS="meny" HREF="../3-1.htm">
+Efternamnsregister
+</A>
+</LI>
+<LI>
+<A CLASS="meny" HREF="../4-1.htm">
+Ortsregister
+</A>
+</LI>
+<LI>
+<A HREF="../about.htm">
+<IMG CLASS="info" SRC="../pictures/symbols/info_White.png" ALT="info_White.png" Title="Teckenf&ouml;rklaring">
+</A>
+</UL>
+<P CLASS="sidfot">
+
+Framst&auml;lld 2025-11-20 med hj&auml;lp av <A href="https://www.dis.se" target="_blank">Disgen</A> version 2025.
+</P>
+</BODY>
+</HTML>
